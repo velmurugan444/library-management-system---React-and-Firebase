@@ -13,8 +13,8 @@ export const Paymentscreen = () => {
       alert("Please enter amount");
     } else {
       var options = {
-        key: "rzp_test_o9r9ClyivHp69t",
-        key_secret: "9i5OJ6MSBcxR4mQfbGHkT1aq",
+        key: "rzp_test_sb1ixHxly3KZIf",
+        key_secret: "luWORc5uzUk4uBOtpaeZa5UC",
         amount: amount * 100,
         currency: "INR",
         name: localStorage.getItem("name"),
